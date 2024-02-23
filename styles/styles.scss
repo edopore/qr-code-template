@@ -41,20 +41,26 @@ body {
 .card {
   background-color: $white;
   list-style: none;
-  padding: 15px 0px;
+  padding-top: 15px;
+  padding-bottom: 25px;
   border-radius: 10px;
   li {
     margin-top: 1rem;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 370px;
   }
 }
 .card__description {
   p {
     font-weight: 400;
+    width: 70%;
     color: $grayish-blue;
   }
 }
 .card__title {
   h2 {
+    width: 80%;
     font-weight: 700;
     color: $dark-blue;
   }
